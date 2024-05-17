@@ -1,0 +1,157 @@
+
+.navegacion {
+    background-color: #3e80a6;
+    width: 100% !important;
+  }
+  .nav-link {
+    color: white !important;
+    font-size: large;
+  }
+
+  .navbar-brand {
+    color: white !important;
+    font-size: 2rem;
+  }
+
+  .videoAltura {
+    width: 100% !important;
+    height: 100%;
+    background-color: #259d99;
+}
+body {
+  overflow-x: hidden; 
+}
+
+header {
+  overflow-x: hidden; 
+}
+
+
+  .videoInicio video{
+    width: 100%;
+    height: 100%;
+  }
+
+  .parrafos{
+    font-size: large;
+  }
+
+.contact-item {
+  margin-left: 40px; 
+}
+
+.card.cardColor {
+  background-color: rgba(61, 58, 58, 0.8); /* Utilizando RGBA para ajustar la transparencia */
+}
+
+.btn-custom {
+  background-color:  #3e80a6 !important; /* Cambia este color según tu preferencia */
+  border-color:  #3e80a6 !important; /* Mismo color para el borde */
+  color: #ffffff !important; /* Color del texto */
+  padding: 10px 20px !important;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 300px;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav.d-none.d-lg-block {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid #ccc; 
+    padding-left: 5px; 
+  }
+}
+
+
+
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+.formbold-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  margin-bottom: 12px;
+}
+.formbold-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #3e80a6;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #3e80a6;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
